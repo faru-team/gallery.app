@@ -1,50 +1,38 @@
 .DS_STORE
 node_modules
-スクリプト/フロー/ * / .flowconfig
+scripts/flow/*/.flowconfig
 .flowconfig
-* 〜
-* .pyc
+*~
+*.pyc
 .grunt
 _SpecRunner.html
-__ベンチマーク__
-ビルド/
-リモートリポジトリ/
-カバレッジ/
+__benchmarks__
+build/
+remote-repo/
+coverage/
 .module-cache
-フィクスチャ/ dom / public / react-dom.js
-フィクスチャ/ dom / public / react.js
-test /the-files-to-test.generated.js _
-* .log *
+fixtures/dom/public/react-dom.js
+fixtures/dom/public/react.js
+test/the-files-to-test.generated.js
+*.log*
 chrome-user-data
-* .sublime-プロジェクト
-* .sublime-workspace
-。考え
-* .iml
+*.sublime-project
+*.sublime-workspace
+.idea
+*.iml
 .vscode
-* .swp
-* .swo
+*.swp
+*.swo
 
-パッケージ/ react-devtools-コア/ dist
-パッケージ/ react-devtools-extensions / chrome / build
-パッケージ/ react-devtools-extensions / chrome / * .crx
-パッケージ/ react-devtools-extensions / chrome / * .pem
-パッケージ/ react-devtools-extensions / firefox / build
-パッケージ/ react-devtools-extensions / firefox / * .xpi
-パッケージ/ react-devtools-extensions / firefox / * .pem
-パッケージ/ react-devtools-拡張機能/共有/ビルド
-パッケージ/ react-devtools-extensions / .tempUserDataDir
-パッケージ/ react-devtools-inline / dist
-パッケージ/ react-devtools-shell / dist
-パッケージ/ react-devtools-タイムライン/ dist
-©2022GitHub、Inc。
-条項
-プライバシー
-安全
-スターテス
-ドキュメント
-GitHubに連絡する
-価格設定
-API
-トレーニング
-ブログ
-だいたい
+packages/react-devtools-core/dist
+packages/react-devtools-extensions/chrome/build
+packages/react-devtools-extensions/chrome/*.crx
+packages/react-devtools-extensions/chrome/*.pem
+packages/react-devtools-extensions/firefox/build
+packages/react-devtools-extensions/firefox/*.xpi
+packages/react-devtools-extensions/firefox/*.pem
+packages/react-devtools-extensions/shared/build
+packages/react-devtools-extensions/.tempUserDataDir
+packages/react-devtools-inline/dist
+packages/react-devtools-shell/dist
+packages/react-devtools-timeline/dist
