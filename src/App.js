@@ -45,7 +45,7 @@ function Gallery(props) {
     </div>
   );
 }
-function Otoiawase(props) {
+function Bakaaaaaa(props) {
   function handleSubmit(event) {
     event.preventDefault();
     const { breed } = event.target.elements;
@@ -53,7 +53,7 @@ function Otoiawase(props) {
   }
   return (
     <div>
-      <from onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <div className="field has-addons">
           <div className="control is-expanded">
             <div className="select is-fullwidth">
@@ -69,7 +69,7 @@ function Otoiawase(props) {
               </button>
             </div>
         </div>
-      </from>
+      </form>
     </div>
   );
 }
@@ -89,7 +89,7 @@ function Main() {
     <main>
       <section className="section">
         <div className="container">
-         <Otoiawase onFormSubmit={reloadImages} />
+         <Bakaaaaaa onFormSubmit={reloadImages} />
         </div>
       </section>
       <section className="section">
