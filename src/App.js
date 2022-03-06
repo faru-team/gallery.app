@@ -45,7 +45,7 @@ function Gallery(props) {
     </div>
   );
 }
-function Form(props) {
+function Otoiawase(props) {
   function handleSubmit(event) {
     event.preventDefault();
     const { breed } = event.target.elements;
@@ -89,7 +89,7 @@ function Main() {
     <main>
       <section className="section">
         <div className="container">
-         <Form onFormSubmit={reloadImages} />
+         <Otoiawase onFormSubmit={reloadImages} />
         </div>
       </section>
       <section className="section">
